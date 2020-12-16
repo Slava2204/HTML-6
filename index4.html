@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Формы на веб-странице4</title>
+</head>
+<style type="text/css">
+		p {
+			width: 700px;
+		}
+		img {
+			float:left;
+			margin-top: 10px;
+			margin-left: 10px;
+			margin-right: 15px;
+		}
+		.t1 {
+			margin-bottom: 1px;
+			margin-top: 15px;
+		}
+		.t2 {
+			vertical-align: bottom;
+			margin-left: 3px;
+		}
+		.t3 {
+			margin-left: 4px;
+			vertical-align: bottom;
+		}
+		select.a1 {
+			width: 130px;
+		}
+		input {
+			width: 140px;
+			margin-bottom:5px;
+		}	
+	</style>
+<body>
+<h2><font color=#0067b7 face="Calibri">Регистрация</font></h2>
+<hr>
+<p>
+<img src=vk.png width=30px height=30px>
+<font face="Calibri" size=3><b>ВКонтакте.ру</b> - сетевой проект, который поможет Вам узнать больше о людях, которые Вас окружают, 
+а также найти потерянных друзей и поддерживать с ними связь.
+Вы сможете делиться информацией, ограничивая круг лиц, которым она будет доступна.
+</font>
+</p>
+<h2 class="t1"><font color=#0067b7 face="Calibri" size=4>Имя</font></h2>
+<hr>
+<form name="form1" method="get" action="index1.html"> 
+<br><b><font color=#696969 face="Arial" class="t3" form="form1" size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Имя:</font></b> <input type="text" name="name">
+<font color=#696969 face="Arial" size=1 color=#a2a3a4><sub>Допускаются только настроящие имя и фамилия.</sub></font>
+<br><br><b><font color=#696969 face="Arial" class="t2" form="form1" size=2>&nbsp;Фамилия:</font></b> <input type="text" name="name">
+<font color=#696969 face="Arial" size=1 color=#a2a3a4><sub>Остальные регистрации будут удаляться.</sub></font>
+<br><br>
+<b><font color=#696969 face="Arial" class="t2" form="form1" size=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-Mail: </font></b><input type="text" name="e-mail">
+<br><br>
+<b><font color=#696969 face="Arial" class="t2" form="form1" size=2>&nbsp;&nbsp;&nbsp;&nbsp;Пароль: </font></b><input type="password" name="secret_word">
+<br>
+<br>
+
+<h2 class="t1"><font color=#0067b7 face="Calibri" size=4>Образование</font></h2>
+<hr>
+<br><b><font color=#696969 face="Calibri" form="form1">&nbsp;&nbsp;&nbsp;&nbsp;Страна: </font></b> 
+<select name="select" form="form1" class="a1">
+		<option>Россия</option>
+		<option>Беларусь</option>
+		<option>США</option>
+		<option>Китай</option>
+		<option>Индия</option>
+		<option>Пакистан</option>
+		<option>Бразилия</option>
+		<option>Бангладеш</option>
+		<option>Мексика</option>
+		<option>Япония</option>
+		<option>Индонезия</option>
+		<option>Египет</option>
+		<option>Иран</option>
+		<option>Турция</option>
+		<option>Германия</option>
+		<option>Франция</option>
+		<option>Великобритания</option>
+		<option>Таиланд</option>
+		<option>Италия</option>
+		<option>Колумбия</option>
+		<option>Испания</option>
+		<option>Аргентина</option>
+		<option>Судан</option>
+		<option>Украина</option>
+		<option>Алжир</option>
+		<option>Канада</option>
+		<option>Польша</option>
+		<option>Перу</option>
+		
+	</select>
+<br>
+<br><b><font color=#696969 face="Calibri" form="form1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Город: </font></b> 
+<select name="select" form="form1" class="a1">
+		<option>Москва</option>
+		<option>Минск</option>
+		<option>Нью-Йорк</option>
+		<option>Париж</option>
+		<option>Рим</option>
+		<option>Венеция</option>
+		<option>Стамбул</option>
+		<option>Прага</option>
+		<option>Амстердам</option>
+		<option>Ванкувер</option>
+		<option>Сидней</option>
+		<option>Токио</option>
+		<option>Шанхай</option>
+		<option>Сеул</option>
+		<option>Мехико</option>
+		<option>Сан-Паулу</option>
+		<option>Дели</option>
+		<option>Карачи</option>
+		<option>Мумбаи</option>
+		<option>Киев</option>
+		<option>Манила</option>
+		<option>Дамаск</option>
+		<option>Бейрут</option>
+		<option>Иерусалим</option>
+		<option>Пловдив</option>
+		<option>Фивы</option>
+		<option>Тир</option>
+		<option>Афины</option>
+	</select>
+<br><font color=#696969 size=2 face="Arial">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;<sup><b>Город, где Вы учились в школе или вузе:</b></sup></font>
+<br>
+<br>
+<h2 class="t1"><font color=#0067b7 face="Calibri" size=4>Школа</font></h2>
+<hr>
+<br><b><font color=#696969 face="Calibri" form="form1">&nbsp;&nbsp;&nbsp;&nbsp;Школа: </font></b> 
+<select name="select" form="form1">
+		<option> - Выберите школу -</option>
+		<option>Гимназия №21</option>
+		<option>СШ №1</option>
+		<option>Гимназия №25</option>
+		<option>СШ №162</option>
+		<option>СШ №71</option>
+		<option>СШ №11</option>
+		<option>Гимназия №4</option>
+		<option>СШ №90</option>
+		<option>СШ №12</option>
+		<option>СШ №17</option>
+		<option>СШ №85</option>
+		<option>СШ №52</option>
+		<option>СШ №43</option>
+	</select>
+	
+<br>
+<h2 class="t1"><font color=#0067b7 face="Calibri" size=4>Университет</font></h2>
+<hr>
+<br><b><font color=#696969 face="Calibri" form="form1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Вуз: </font></b> 
+<select name="select" form="form1">
+		<option> - Выберите ВУЗ -</option>
+		<option>БГУ</option>
+		<option>МГЛУ</option>
+		<option>БГАС</option>
+		<option>БГПУ</option>
+		<option>БГМУ</option>
+		<option>БНТУ</option>
+		<option>БГЭУ</option>
+		<option>БГПУ имени М.Танка</option>
+		
+	</select>
+<br>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Зарегистрироваться" style="width:190px">
+<br>
+<font color=#a2a3a4 face="Arial" size=2 class="a2"><sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фактом регистрации Вы соглашаетесь с <b style="color:#22559b">Пользовательским соглашением</b></sup></font>
+</form>
+</body>
+</html>
